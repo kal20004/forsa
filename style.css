@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navigation li a span {
+  color: #EF5166;
+}
+
+.navigation a {
+  padding-left: 30px;
+  color: black;
+  font-family: sans-serif;
+}
+
+.head {
+  width: 100%;
+  height: 3.5em;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  z-index: 999;
+  position: fixed;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-size: 1.8em;
+  color: #EF5166;
+}
+
+.rad {
+  border: none;
+  border-radius: 50%;
+  background-color: #f4f4f4;
+  width: 20%;
+  padding: 10px;
+  position: relative;
+}
+
+.rad::after {
+  content: "1";
+  padding: 3px 6px;
+  border-radius: 47%;
+  position: absolute;
+  font-size: 9px;
+  top: 0;
+  right: -12px;
+  background-color: red;
+  color: white;
+}
+
+.content {
+  background-image: url("https://wallpaperaccess.com/full/3045275.jpg");
+  min-height: 92.1vh;
+  background-size: cover;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.content div {
+  position: absolute;
+  top: 42%;
+  left: 16.5%;
+}
+
+.content p {
+  font-family: 'Bodoni Moda', serif;
+}
+
+.content button {
+  margin-top: 20px;
+}
+
+.content div p span {
+  color: #EF5166;
+}
+
+.p1 {
+  font-size: medium;
+  margin-left: 61px;
+  font-family: 'Bodoni Moda', serif;
+}
+
+.p2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 5em;
+  letter-spacing: 16px;
+}
+
+.p3 {
+  text-transform: uppercase;
+  font-size: xx-large;
+}
+
+.btn {
+  margin-left: 60px;
+  width: 127px;
+  height: 30px;
+  background-color: #EF5166;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+}
+
+.category div {
+  display: inline-block;
+  margin-left: 5.5%;
+}
+
+.category h1 {
+  padding: 66px;
+  font-family: tahoma;
+  color: grey;
+  text-transform: uppercase;
+  font-size: xx-large;
+}
+
+.category {
+  position: relative;
+}
+
+.category button {
+  position: absolute;
+  left: 145px;
+  bottom: 178px;
+  width: 127px;
+  height: 30px;
+  background-color: #82bee2;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+}
+
+.category p {
+  position: absolute;
+  left: 699px;
+  bottom: 4px;
+  width: 127px;
+  height: 30px;
+  background-color: white;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  text-align: center;
+}
+
+.category p a {
+  padding: 10px;
+}
+
+.ctg1 {
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+.ctg1:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.ctg2 {
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+.ctg2:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.ctg3 {
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+.ctg3:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.contact {
+  background-color: #4b4b49;
+  height: 3.5em;
+  margin-top: 20px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 15px;
+}
+
+.footer li {
+  margin-left: 10px;
+}
+
+.footer li a {
+  color: black;
+}
+
+.footer h1 span {
+  color: silver;
+  font-family: Comic Sans MS;
+}
+
+.footer h1 {
+  font-family: tahoma;
+}
+/*# sourceMappingURL=style.css.map */

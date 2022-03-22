@@ -1,0 +1,70 @@
+.category div{
+    display: inline-block;
+    margin-left: 5.5%;
+    
+}
+.category h1{
+    padding: 66px;
+    font-family: tahoma;
+    color: grey;
+    text-transform: uppercase;
+    font-size: xx-large;
+}
+.category{
+    position: relative;
+}
+.category button{
+    position: absolute;
+    left: 145px;
+    bottom: 178px;
+    width: 127px;
+    height: 30px;
+    background-color: rgb(130, 190, 226);
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+
+}
+.category p{
+    position: absolute;
+    left: 699px;
+    bottom: 4px;
+    width: 127px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    text-align: center;
+}
+.category p a{
+    padding: 10px;
+}
+.ctg1{
+    transition: transform .3s;
+ }
+.ctg1:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.ctg2{
+    transition: transform .3s;
+ }
+.ctg2:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.ctg3{
+    transition: transform .3s;
+ }
+.ctg3:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1);
+}

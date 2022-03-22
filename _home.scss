@@ -1,0 +1,51 @@
+
+.content{
+    background-image: url("https://wallpaperaccess.com/full/3045275.jpg");
+    min-height: 92.1vh;
+    background-size: cover;
+    align-items: center;
+    position:relative;
+    font-family: sans-serif;
+
+}
+.content div{
+    position: absolute;
+    top: 42%;
+    left: 16.5%;
+}
+.content p{
+    font-family: 'Bodoni Moda', serif;
+}
+.content button{
+    margin-top: 20px;
+}
+.content div p span{
+    color: #EF5166;
+}
+.p1{
+    font-size: medium;
+    margin-left: 61px;
+    font-family: 'Bodoni Moda', serif;
+}
+.p2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 5em;
+    letter-spacing: 16px;
+}
+.p3{
+    text-transform: uppercase;
+    font-size: xx-large;
+}
+.btn{
+    margin-left: 60px;
+    width: 127px;
+    height: 30px;
+    background-color: #EF5166;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    
+}

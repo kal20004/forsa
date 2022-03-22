@@ -1,0 +1,26 @@
+.contact{
+    background-color: rgb(75, 75, 73);
+    height:3.5em;
+    margin-top: 20px;
+    
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding-top: 15px;
+}
+.footer li{
+    margin-left: 10px;
+}
+.footer li a{
+    color: black;
+}
+.footer h1 span{
+    color: silver;
+    font-family: Comic Sans MS;
+}
+.footer h1{
+    font-family: tahoma;
+} 
